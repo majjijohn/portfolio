@@ -1,0 +1,1574 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary SEO Meta Tags -->
+  <title>Johan Majji | Junior Full-Stack Developer & ECE Graduate</title>
+  <meta name="title" content="Johan Majji | Junior Full-Stack Developer & ECE Graduate">
+  <meta name="description" content="Portfolio of Johan Majji, an enthusiastic Junior Full-Stack Developer & B.Tech ECE graduate from Simhadhri Educational Society Group of Institutions (2021–2025, CGPA 7.69). Passionate about React, Node.js, Python, OpenCV, and AI.">
+  <meta name="keywords" content="Johan Majji, Junior Full Stack Developer, Entry Level Developer, React Developer, Node.js, Python, OpenCV, ECE Graduate, Portfolio">
+  <meta name="author" content="Johan Majji">
+
+  <!-- Open Graph / Facebook / LinkedIn -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Johan Majji | Junior Full-Stack Developer">
+  <meta property="og:description" content="Eager learner and junior developer building full-stack applications with React, Node.js, Python, and IoT telemetry.">
+  
+  <!-- Google Fonts Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Ambient Glow & Grid Layer -->
+  <div class="bg-ambient-layer">
+    <div class="ambient-orb orb-1"></div>
+    <div class="ambient-orb orb-2"></div>
+    <div class="ambient-orb orb-3"></div>
+    <div class="grid-overlay"></div>
+  </div>
+
+  <!-- ==========================================================================
+       Navigation Bar
+       ========================================================================== -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="nav-brand" aria-label="Johan Majji Home">
+        <img src="assets/johan-majji.jpg" class="nav-avatar-img" alt="Johan Majji Profile">
+        <div class="brand-info">
+          <span class="brand-name">Johan Majji</span>
+          <span class="brand-role">Junior Full-Stack Dev</span>
+        </div>
+      </a>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#architecture" class="nav-link">Architecture</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Terminal Trigger Button -->
+        <button class="terminal-trigger open-terminal-btn" title="Open Interactive CLI (Ctrl + K)">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="4 17 10 11 4 5"></polyline>
+            <line x1="12" y1="19" x2="20" y2="19"></line>
+          </svg>
+          <span>CLI</span>
+          <span class="kbd-shortcut">Ctrl+K</span>
+        </button>
+
+        <!-- Resume Modal Trigger -->
+        <button class="btn btn-outline btn-sm open-resume-btn" title="View & Print Resume">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+            <line x1="16" y1="13" x2="8" y2="13"></line>
+            <line x1="16" y1="17" x2="8" y2="17"></line>
+            <polyline points="10 9 9 9 8 9"></polyline>
+          </svg>
+          <span>Resume</span>
+        </button>
+
+        <!-- Theme Toggle -->
+        <button id="theme-toggle-btn" class="btn-icon" aria-label="Toggle Dark/Light Mode">
+          <!-- Populated by script.js -->
+        </button>
+
+        <!-- Mobile Menu Toggle -->
+        <button id="mobile-menu-toggle" class="mobile-menu-btn" aria-label="Toggle Navigation Menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       Hero Section
+       ========================================================================== -->
+  <main>
+    <section class="hero-section" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="availability-pill">
+            <span class="pulse-dot"></span>
+            <span>Student @ 6-Month Full-Stack Developer Course • Open to Junior Roles</span>
+          </div>
+
+          <h1 class="hero-title">
+            Passionate <span class="text-gradient">Full-Stack Developer</span> & Rapid Learner.
+          </h1>
+
+          <p class="hero-tagline">
+            Hi, I'm <strong>Johan Majji</strong> from Andhra Pradesh, India — B.Tech ECE graduate (2021–2025, CGPA: 7.69) from Simhadhri Group of Institutions. Presently, I am not employed — I am a dedicated student pursuing an intensive <strong>6-Month Full-Stack Developer Course</strong> under Course Lead <strong>Dinesh</strong>, actively mastering React, Node.js, Express, MongoDB, and Python with prior internships in Deep Learning/NLP, IoT, and Embedded Systems.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <span>Explore Featured Projects</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              <span>Get In Touch</span>
+            </a>
+            <button class="btn btn-outline open-resume-btn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              <span>CV / Resume</span>
+            </button>
+          </div>
+
+          <div class="hero-socials">
+            <span class="social-label">Connect:</span>
+            <div class="social-links">
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn-icon" title="GitHub Profile">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+              </a>
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="btn-icon" title="LinkedIn Profile">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+              </a>
+              <a href="mailto:majjijohn958@gmail.com" class="btn-icon" title="Send Email">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual: Executive Profile & Interactive Code Showcase -->
+        <div class="hero-visual">
+          <div class="hero-visual-card">
+            <div class="window-header">
+              <div class="window-dots">
+                <span class="window-dot dot-red"></span>
+                <span class="window-dot dot-yellow"></span>
+                <span class="window-dot dot-green"></span>
+              </div>
+              
+              <!-- Tab Switchers -->
+              <div class="hero-tab-btns">
+                <button class="hero-tab-btn active" data-tab="profile" id="tab-profile-btn" title="View Executive Profile">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                  <span>Profile</span>
+                </button>
+                <button class="hero-tab-btn" data-tab="code" id="tab-code-btn" title="View TypeScript Code">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                  <span>TypeScript</span>
+                </button>
+              </div>
+
+              <div style="font-size:0.75rem; color:#64748b;">v2.4 Prod</div>
+            </div>
+
+            <!-- Tab 1: Profile View (Active by default) -->
+            <div class="profile-showcase-view active" id="hero-profile-view">
+              <div class="profile-portrait-wrap">
+                <img src="assets/johan-majji.jpg" class="profile-portrait-img" alt="Johan Majji - Full-Stack Developer">
+                <div class="portrait-badge badge-top-right">
+                  <span class="pulse-dot" style="background:#fff;"></span>
+                  <span>FSD Student (6-Mo Course)</span>
+                </div>
+                <div class="portrait-badge badge-bottom-left">
+                  <span>🎓 B.Tech ECE (7.69 CGPA)</span>
+                </div>
+                <div class="portrait-badge badge-bottom-right">
+                  <span>📍 Andhra Pradesh, India</span>
+                </div>
+              </div>
+
+              <div class="profile-card-footer">
+                <div class="profile-identity">
+                  <span class="identity-name">Johan Majji</span>
+                  <span class="identity-title">Full-Stack Developer & AI Enthusiast</span>
+                </div>
+                <div class="profile-chips">
+                  <span class="profile-chip">Python</span>
+                  <span class="profile-chip">React</span>
+                  <span class="profile-chip">Node.js</span>
+                  <span class="profile-chip">OpenCV</span>
+                  <span class="profile-chip">IoT / C</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tab 2: Code View -->
+            <div class="code-showcase-view" id="hero-code-view">
+              <div class="code-body">
+                <span class="code-line"><span class="token-keyword">import</span> { Developer, Education } <span class="token-keyword">from</span> <span class="token-string">'@engineering/core'</span>;</span>
+                <span class="code-line">&nbsp;</span>
+                <span class="code-line"><span class="token-keyword">export const</span> <span class="token-function">johanMajji</span> = <span class="token-keyword">new</span> <span class="token-function">Developer</span>({</span>
+                <span class="code-line">&nbsp;&nbsp;<span class="token-property">name:</span> <span class="token-string">'Johan Majji'</span>,</span>
+                <span class="code-line">&nbsp;&nbsp;<span class="token-property">college:</span> <span class="token-string">'Simhadhri Group of Institutions'</span>,</span>
+                <span class="code-line">&nbsp;&nbsp;<span class="token-property">education:</span> <span class="token-string">'B.Tech ECE (7.69 CGPA)'</span>,</span>
+                <span class="code-line">&nbsp;&nbsp;<span class="token-property">coreStack:</span> [</span>
+                <span class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="token-string">'Python'</span>, <span class="token-string">'React'</span>, <span class="token-string">'Node.js'</span>,</span>
+                <span class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="token-string">'OpenCV'</span>, <span class="token-string">'IoT'</span>, <span class="token-string">'C'</span></span>
+                <span class="code-line">&nbsp;&nbsp;],</span>
+                <span class="code-line">&nbsp;&nbsp;<span class="token-property">internships:</span> <span class="token-string">'Deep Learning & NLP, IoT, Embedded Systems'</span>,</span>
+                <span class="code-line">&nbsp;&nbsp;<span class="token-property">capstone:</span> <span class="token-string">'ALPR Image Processing System'</span>,</span>
+                <span class="code-line">&nbsp;&nbsp;<span class="token-property">publication:</span> <span class="token-string">'HFSS Tool in IRJMETS (Nov 2024)'</span></span>
+                <span class="code-line">});</span>
+                <span class="code-line">&nbsp;</span>
+                <span class="code-line"><span class="token-comment">// Deploying production features</span></span>
+                <span class="code-line"><span class="token-keyword">await</span> johanMajji.<span class="token-function">shipProductionFeature</span>({</span>
+                <span class="code-line">&nbsp;&nbsp;<span class="token-property">uptime:</span> <span class="token-number">99.99</span>,</span>
+                <span class="code-line">&nbsp;&nbsp;<span class="token-property">accuracy:</span> <span class="token-string">'96.4%'</span></span>
+                <span class="code-line">});</span>
+
+                <div class="terminal-run-preview">
+                  <div class="status-line">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Compilation: 0 errors | Ready for deployment</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Floating Metric Badge -->
+          <div class="floating-stat-badge">
+            <div class="stat-icon-wrap">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+            </div>
+            <div class="stat-content">
+              <span class="stat-num">Full-Stack</span>
+              <span class="stat-desc">Web, IoT & Computer Vision</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Tech Ticker Infinite Marquee
+         ========================================================================== -->
+    <section class="ticker-section" aria-label="Core Technology Ticker">
+      <div class="ticker-track">
+        <!-- Loop 1 -->
+        <span class="ticker-item"><strong>TypeScript</strong></span>
+        <span class="ticker-item"><strong>Next.js 14/15</strong></span>
+        <span class="ticker-item"><strong>React 19</strong></span>
+        <span class="ticker-item"><strong>Node.js</strong></span>
+        <span class="ticker-item"><strong>PostgreSQL</strong></span>
+        <span class="ticker-item"><strong>Docker & K8s</strong></span>
+        <span class="ticker-item"><strong>Redis Caching</strong></span>
+        <span class="ticker-item"><strong>AWS Cloud</strong></span>
+        <span class="ticker-item"><strong>Tailwind CSS</strong></span>
+        <span class="ticker-item"><strong>GraphQL & REST</strong></span>
+        <span class="ticker-item"><strong>Python / FastAPI</strong></span>
+        <span class="ticker-item"><strong>CI/CD GitHub Actions</strong></span>
+        <!-- Loop 2 for seamless infinite scroll -->
+        <span class="ticker-item"><strong>TypeScript</strong></span>
+        <span class="ticker-item"><strong>Next.js 14/15</strong></span>
+        <span class="ticker-item"><strong>React 19</strong></span>
+        <span class="ticker-item"><strong>Node.js</strong></span>
+        <span class="ticker-item"><strong>PostgreSQL</strong></span>
+        <span class="ticker-item"><strong>Docker & K8s</strong></span>
+        <span class="ticker-item"><strong>Redis Caching</strong></span>
+        <span class="ticker-item"><strong>AWS Cloud</strong></span>
+        <span class="ticker-item"><strong>Tailwind CSS</strong></span>
+        <span class="ticker-item"><strong>GraphQL & REST</strong></span>
+        <span class="ticker-item"><strong>Python / FastAPI</strong></span>
+        <span class="ticker-item"><strong>CI/CD GitHub Actions</strong></span>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Key Quantified Metrics Bar
+         ========================================================================== -->
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-big" data-target="2025" data-suffix="">2025</div>
+          <div class="stat-label">B.Tech ECE Graduate</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-big">7.69</div>
+          <div class="stat-label">B.Tech CGPA</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-big" data-target="3" data-suffix="">3</div>
+          <div class="stat-label">Technical Internships</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-big" data-target="1" data-suffix=" Paper">1 Paper</div>
+          <div class="stat-label">IRJMETS Publication</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==========================================================================
+         About Me & Engineering Principles
+         ========================================================================== -->
+    <section id="about">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">About Johan</div>
+          <h2 class="section-title">Driven Full-Stack Learner & Problem Solver</h2>
+          <p class="section-subtitle">
+            Electronics & Communication Engineering graduate with hands-on experience in Deep Learning, NLP, IoT, and modern Full-Stack web development.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-bio">
+            <p>
+              Hi there! I'm <strong>Johan Majji</strong> from Andhra Pradesh, India — an engineering graduate with a <strong>B.Tech in Electronics & Communication Engineering (2021–2025, CGPA: 7.69)</strong> from <strong>Simhadhri Educational Society Group of Institutions</strong>.
+            </p>
+            <p>
+              Throughout my engineering journey, I completed 3 specialized internships: <strong>Deep Learning, NLP & AI Intern</strong>, <strong>IoT Intern</strong>, and <strong>Embedded Systems Intern</strong>. I also engineered an <strong>Automatic License Plate Recognition (ALPR) System</strong> using Image Processing & Neural Networks, and authored a published research paper on the <strong>HFSS tool in IRJMETS (Nov 2024)</strong>.
+            </p>
+            <p>
+              I am actively applying my analytical foundation into <strong>Full-Stack Web Development</strong>, mastering <strong>React, Node.js, Express, Python, and SQL</strong>. Eager to contribute to a collaborative engineering team while continuously expanding my technical capabilities.
+            </p>
+            <div class="about-actions">
+              <a href="#contact" class="btn btn-primary btn-sm">Let's Connect</a>
+              <button class="btn btn-outline btn-sm open-resume-btn">View My Resume</button>
+            </div>
+          </div>
+
+          <!-- 4 Pillars -->
+          <div class="pillars-grid">
+            <div class="pillar-card">
+              <div class="pillar-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+              </div>
+              <h3 class="pillar-title">Fast Learner</h3>
+              <p class="pillar-desc">Quick to assimilate modern frameworks, best practices, and new tools with continuous curiosity.</p>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+              </div>
+              <h3 class="pillar-title">Solid Foundation</h3>
+              <p class="pillar-desc">Rigorous engineering and analytical background in ECE, algorithms, IoT data flow, and Python logic.</p>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+              </div>
+              <h3 class="pillar-title">Modern Web Craft</h3>
+              <p class="pillar-desc">Creating clean, responsive UI layouts with React and styling them with modern CSS / Tailwind.</p>
+            </div>
+
+            <div class="pillar-card">
+              <div class="pillar-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
+              </div>
+              <h3 class="pillar-title">Team Collaboration</h3>
+              <p class="pillar-desc">Comfortable with Git workflows, code reviews, documentation, and receptive to feedback.</p>
+            </div>
+          </div>
+              </div>
+              <h3 class="pillar-title">Cloud Native CI/CD</h3>
+              <p class="pillar-desc">Docker containerization, AWS infrastructure orchestration, and automated zero-downtime GitHub Actions pipelines.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Skills Matrix (Categorized & Interactive)
+         ========================================================================== -->
+    <section id="skills" style="background: rgba(13, 19, 34, 0.35);">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">Technical Arsenal</div>
+          <h2 class="section-title">Full-Stack Competencies</h2>
+          <p class="section-subtitle">
+            Curated tools and technologies I use to build robust, production-grade applications from prototype to cloud scale.
+          </p>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="skills-filter">
+          <button class="filter-btn active" data-filter="all">All Skills</button>
+          <button class="filter-btn" data-filter="frontend">Frontend</button>
+          <button class="filter-btn" data-filter="backend">Backend & APIs</button>
+          <button class="filter-btn" data-filter="database">Databases & Cache</button>
+          <button class="filter-btn" data-filter="devops">Cloud & DevOps</button>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Skill: React & Next.js -->
+          <div class="skill-card" data-category="frontend">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrapper">⚛</div>
+              <div class="skill-info">
+                <div class="skill-name">React & Next.js</div>
+                <div class="skill-level-text">Modern Frontend • Active Learning</div>
+              </div>
+            </div>
+            <div class="skill-progress-bar"><div class="skill-progress-fill" style="width: 85%;"></div></div>
+            <div class="skill-tagline">Building responsive UI components, hooks, state management, and API rendering.</div>
+          </div>
+
+          <!-- Skill: Node.js & Express -->
+          <div class="skill-card" data-category="backend">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrapper">Node</div>
+              <div class="skill-info">
+                <div class="skill-name">Node.js & Express</div>
+                <div class="skill-level-text">Backend Development • REST APIs</div>
+              </div>
+            </div>
+            <div class="skill-progress-bar"><div class="skill-progress-fill" style="width: 82%;"></div></div>
+            <div class="skill-tagline">Creating RESTful endpoints, request validation, middleware, and database connectors.</div>
+          </div>
+
+          <!-- Skill: Python & OpenCV (Image Processing) -->
+          <div class="skill-card" data-category="backend">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrapper">🐍</div>
+              <div class="skill-info">
+                <div class="skill-name">Python & OpenCV</div>
+                <div class="skill-level-text">Image Processing & AI • Capstone</div>
+              </div>
+            </div>
+            <div class="skill-progress-bar"><div class="skill-progress-fill" style="width: 88%;"></div></div>
+            <div class="skill-tagline">Image filtering, contour localization, OCR character recognition (ANPR project).</div>
+          </div>
+
+          <!-- Skill: JavaScript & TypeScript -->
+          <div class="skill-card" data-category="frontend backend">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrapper">JS</div>
+              <div class="skill-info">
+                <div class="skill-name">JavaScript & TypeScript</div>
+                <div class="skill-level-text">Core Web Language • Daily Practice</div>
+              </div>
+            </div>
+            <div class="skill-progress-bar"><div class="skill-progress-fill" style="width: 84%;"></div></div>
+            <div class="skill-tagline">ES6+ syntax, asynchronous programming, DOM manipulation, and static types.</div>
+          </div>
+
+          <!-- Skill: PostgreSQL & SQL -->
+          <div class="skill-card" data-category="database">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrapper">🐘</div>
+              <div class="skill-info">
+                <div class="skill-name">PostgreSQL & SQL</div>
+                <div class="skill-level-text">Relational DB • Hands-on</div>
+              </div>
+            </div>
+            <div class="skill-progress-bar"><div class="skill-progress-fill" style="width: 80%;"></div></div>
+            <div class="skill-tagline">Schema creation, relational queries, foreign keys, and basic ORM integration.</div>
+          </div>
+
+          <!-- Skill: IoT & WebSockets -->
+          <div class="skill-card" data-category="backend devops">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrapper">📡</div>
+              <div class="skill-info">
+                <div class="skill-name">IoT & WebSockets</div>
+                <div class="skill-level-text">6-Month Internship Experience</div>
+              </div>
+            </div>
+            <div class="skill-progress-bar"><div class="skill-progress-fill" style="width: 86%;"></div></div>
+            <div class="skill-tagline">MQTT protocol, real-time sensor streams, and interactive hardware telemetry dashboards.</div>
+          </div>
+
+          <!-- Skill: Tailwind CSS & HTML5 -->
+          <div class="skill-card" data-category="frontend">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrapper">🎨</div>
+              <div class="skill-info">
+                <div class="skill-name">Tailwind CSS & HTML5</div>
+                <div class="skill-level-text">Responsive Layouts • Proficient</div>
+              </div>
+            </div>
+            <div class="skill-progress-bar"><div class="skill-progress-fill" style="width: 90%;"></div></div>
+            <div class="skill-tagline">Modern utility classes, flexbox/grid layout, mobile-first design, accessibility.</div>
+          </div>
+
+          <!-- Skill: Git & GitHub -->
+          <div class="skill-card" data-category="devops">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrapper">⚙</div>
+              <div class="skill-info">
+                <div class="skill-name">Git & GitHub</div>
+                <div class="skill-level-text">Version Control • Everyday Use</div>
+              </div>
+            </div>
+            <div class="skill-progress-bar"><div class="skill-progress-fill" style="width: 85%;"></div></div>
+            <div class="skill-tagline">Branch management, commits, pull requests, and collaborative repository workflows.</div>
+          </div>
+
+          <!-- Skill: MongoDB -->
+          <div class="skill-card" data-category="database">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrapper">🍃</div>
+              <div class="skill-info">
+                <div class="skill-name">MongoDB & NoSQL</div>
+                <div class="skill-level-text">Document Database • Practical</div>
+              </div>
+            </div>
+            <div class="skill-progress-bar"><div class="skill-progress-fill" style="width: 78%;"></div></div>
+            <div class="skill-tagline">JSON-like document collections, CRUD operations, and Mongoose schema modeling.</div>
+          </div>
+
+          <!-- Skill: REST APIs -->
+          <div class="skill-card" data-category="backend">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrapper">◈</div>
+              <div class="skill-info">
+                <div class="skill-name">RESTful APIs & Postman</div>
+                <div class="skill-level-text">Integration & Testing</div>
+              </div>
+            </div>
+            <div class="skill-progress-bar"><div class="skill-progress-fill" style="width: 84%;"></div></div>
+            <div class="skill-tagline">API contract design, HTTP status codes, JSON payload parsing, and Postman testing.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Featured Projects (The Job-Winner Showcases)
+         ========================================================================== -->
+    <section id="projects">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">Real-World Impact</div>
+          <h2 class="section-title">Featured Production Projects</h2>
+          <p class="section-subtitle">
+            Demonstrating end-to-end full-stack execution: solving complex technical challenges, delivering business value, and optimizing for high scale.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: CloudScale APM -->
+          <article class="project-card">
+            <div class="project-preview">
+              <div class="project-mockup-screen">
+                <div class="mockup-header">
+                  <span style="color:#38bdf8; font-weight:700;">● CloudScale Live APM</span>
+                  <span class="mockup-badge">LIVE METRICS</span>
+                </div>
+                <div class="mockup-stats-row">
+                  <div class="mockup-stat-box">
+                    <div class="val">52,400</div>
+                    <div class="lbl">Events/Sec</div>
+                  </div>
+                  <div class="mockup-stat-box">
+                    <div class="val">42ms</div>
+                    <div class="lbl">P99 Latency</div>
+                  </div>
+                  <div class="mockup-stat-box">
+                    <div class="val">99.99%</div>
+                    <div class="lbl">Uptime</div>
+                  </div>
+                </div>
+                <div style="font-size:0.75rem; color:#94a3b8; margin-bottom:6px;">Ingestion Pipeline Throughput:</div>
+                <div class="mockup-chart-visual">
+                  <div class="mockup-bar" style="height: 35%;"></div>
+                  <div class="mockup-bar" style="height: 55%;"></div>
+                  <div class="mockup-bar" style="height: 48%;"></div>
+                  <div class="mockup-bar" style="height: 75%;"></div>
+                  <div class="mockup-bar" style="height: 60%;"></div>
+                  <div class="mockup-bar" style="height: 90%;"></div>
+                  <div class="mockup-bar" style="height: 82%;"></div>
+                  <div class="mockup-bar" style="height: 98%;"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-details">
+              <div>
+                <div class="project-meta-top">
+                  <span class="project-tag">Distributed Systems • Full-Stack</span>
+                  <span style="font-size:0.8rem; color:#64748b;">Production Ready</span>
+                </div>
+                <h3 class="project-title">CloudScale APM - Real-Time Telemetry Platform</h3>
+                <p class="project-description">
+                  A high-throughput application performance monitoring and log analytics platform capable of streaming 50k+ server metrics per second with real-time incident alerting.
+                </p>
+
+                <ul class="project-highlights-list">
+                  <li>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Built streaming ingestion engine with Node.js backpressure handling and Redis Pub/Sub.</span>
+                  </li>
+                  <li>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Implemented reactive Next.js 14 dashboard with WebSockets for sub-100ms UI data synchronization.</span>
+                  </li>
+                  <li>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span><strong>Quantified Result:</strong> Reduced mean-time-to-detection (MTTD) by 60% for engineering teams.</span>
+                  </li>
+                </ul>
+
+                <div class="project-tech-stack">
+                  <span class="tech-chip">Next.js 14</span>
+                  <span class="tech-chip">TypeScript</span>
+                  <span class="tech-chip">Node.js</span>
+                  <span class="tech-chip">Redis</span>
+                  <span class="tech-chip">ClickHouse / PostgreSQL</span>
+                  <span class="tech-chip">Docker</span>
+                </div>
+              </div>
+
+              <div class="project-actions">
+                <a href="#contact" class="btn btn-primary btn-sm">
+                  <span>Request Live Demo</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                  <span>View Repository</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Nexus Commerce -->
+          <article class="project-card">
+            <div class="project-preview">
+              <div class="project-mockup-screen">
+                <div class="mockup-header">
+                  <span style="color:#10b981; font-weight:700;">● Nexus Headless Engine</span>
+                  <span class="mockup-badge" style="background:rgba(56,189,248,0.15); color:#38bdf8;">ACID TRANSACTIONS</span>
+                </div>
+                <div class="mockup-stats-row">
+                  <div class="mockup-stat-box">
+                    <div class="val">10,000+</div>
+                    <div class="lbl">Concurrent Users</div>
+                  </div>
+                  <div class="mockup-stat-box">
+                    <div class="val">0.00%</div>
+                    <div class="lbl">Inventory Drift</div>
+                  </div>
+                  <div class="mockup-stat-box">
+                    <div class="val">&lt; 85ms</div>
+                    <div class="lbl">Checkout API</div>
+                  </div>
+                </div>
+                <div style="font-size:0.75rem; color:#94a3b8; margin-bottom:6px;">Distributed Locking Benchmark:</div>
+                <div class="mockup-chart-visual">
+                  <div class="mockup-bar" style="height: 40%; background: linear-gradient(to top, #10b981, #34d399);"></div>
+                  <div class="mockup-bar" style="height: 65%; background: linear-gradient(to top, #10b981, #34d399);"></div>
+                  <div class="mockup-bar" style="height: 80%; background: linear-gradient(to top, #10b981, #34d399);"></div>
+                  <div class="mockup-bar" style="height: 70%; background: linear-gradient(to top, #10b981, #34d399);"></div>
+                  <div class="mockup-bar" style="height: 92%; background: linear-gradient(to top, #10b981, #34d399);"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-details">
+              <div>
+                <div class="project-meta-top">
+                  <span class="project-tag">E-Commerce • High Concurrency</span>
+                  <span style="font-size:0.8rem; color:#64748b;">Enterprise Grade</span>
+                </div>
+                <h3 class="project-title">Nexus Commerce - Headless Checkout & Inventory Engine</h3>
+                <p class="project-description">
+                  A resilient headless e-commerce architecture designed to eliminate race conditions, double bookings, and database deadlocks during flash-sale traffic surges.
+                </p>
+
+                <ul class="project-highlights-list">
+                  <li>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Engineered Redis atomic mutex locking (Redlock) for cart stock reservation with auto-expiration TTLs.</span>
+                  </li>
+                  <li>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Integrated Stripe PaymentIntents with asynchronous idempotent webhook processors.</span>
+                  </li>
+                  <li>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span><strong>Quantified Result:</strong> Zero inventory discrepancies across 10,000 simulated simultaneous checkouts.</span>
+                  </li>
+                </ul>
+
+                <div class="project-tech-stack">
+                  <span class="tech-chip">React</span>
+                  <span class="tech-chip">Node.js</span>
+                  <span class="tech-chip">PostgreSQL</span>
+                  <span class="tech-chip">Prisma</span>
+                  <span class="tech-chip">Redis</span>
+                  <span class="tech-chip">Stripe API</span>
+                </div>
+              </div>
+
+              <div class="project-actions">
+                <a href="#contact" class="btn btn-primary btn-sm">
+                  <span>Explore Architecture</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                  <span>Source Code</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: DevSync AI -->
+          <article class="project-card">
+            <div class="project-preview">
+              <div class="project-mockup-screen">
+                <div class="mockup-header">
+                  <span style="color:#a78bfa; font-weight:700;">● DevSync Collaborative AI</span>
+                  <span class="mockup-badge" style="background:rgba(167,139,250,0.15); color:#a78bfa;">CRDT SYNC</span>
+                </div>
+                <div class="mockup-stats-row">
+                  <div class="mockup-stat-box">
+                    <div class="val">&lt; 25ms</div>
+                    <div class="lbl">Cursor Sync</div>
+                  </div>
+                  <div class="mockup-stat-box">
+                    <div class="val">150k+</div>
+                    <div class="lbl">Vector Embeddings</div>
+                  </div>
+                  <div class="mockup-stat-box">
+                    <div class="val">98.4%</div>
+                    <div class="lbl">Search Precision</div>
+                  </div>
+                </div>
+                <div style="font-size:0.75rem; color:#94a3b8; margin-bottom:6px;">Multi-User Conflict Resolution:</div>
+                <div class="mockup-chart-visual">
+                  <div class="mockup-bar" style="height: 50%; background: linear-gradient(to top, #8b5cf6, #c084fc);"></div>
+                  <div class="mockup-bar" style="height: 70%; background: linear-gradient(to top, #8b5cf6, #c084fc);"></div>
+                  <div class="mockup-bar" style="height: 85%; background: linear-gradient(to top, #8b5cf6, #c084fc);"></div>
+                  <div class="mockup-bar" style="height: 65%; background: linear-gradient(to top, #8b5cf6, #c084fc);"></div>
+                  <div class="mockup-bar" style="height: 95%; background: linear-gradient(to top, #8b5cf6, #c084fc);"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-details">
+              <div>
+                <div class="project-meta-top">
+                  <span class="project-tag">AI Engineering • Real-Time Web</span>
+                  <span style="font-size:0.8rem; color:#64748b;">Full-Stack AI</span>
+                </div>
+                <h3 class="project-title">DevSync AI - Real-Time Code Documentation & Vector Search</h3>
+                <p class="project-description">
+                  A Notion-style collaborative engineering knowledge base featuring multi-cursor editing, automatic markdown API documentation generation, and vector semantic search.
+                </p>
+
+                <ul class="project-highlights-list">
+                  <li>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Leveraged Yjs CRDTs over WebSockets for conflict-free concurrent editing among engineering teams.</span>
+                  </li>
+                  <li>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Built hybrid search using PostgreSQL pgvector cosine similarity combined with full-text search.</span>
+                  </li>
+                  <li>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span><strong>Quantified Result:</strong> Cut developer onboarding lookup time in half across 200+ internal documents.</span>
+                  </li>
+                </ul>
+
+                <div class="project-tech-stack">
+                  <span class="tech-chip">Next.js</span>
+                  <span class="tech-chip">FastAPI (Python)</span>
+                  <span class="tech-chip">Supabase</span>
+                  <span class="tech-chip">pgvector</span>
+                  <span class="tech-chip">Yjs WebSockets</span>
+                  <span class="tech-chip">Tailwind CSS</span>
+                </div>
+              </div>
+
+              <div class="project-actions">
+                <a href="#contact" class="btn btn-primary btn-sm">
+                  <span>Request Walkthrough</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                  <span>Source Code</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: ALPR Automatic License Plate Recognition -->
+          <article class="project-card">
+            <div class="project-preview">
+              <div class="project-mockup-screen">
+                <div class="mockup-header">
+                  <span style="color:#38bdf8; font-weight:700;">● ALPR Vision & Neural Net Engine</span>
+                  <span class="mockup-badge" style="background:rgba(56,189,248,0.15); color:#38bdf8;">IMAGE PROCESSING</span>
+                </div>
+                <div class="mockup-stats-row">
+                  <div class="mockup-stat-box">
+                    <div class="val">96.4%</div>
+                    <div class="lbl">OCR Accuracy</div>
+                  </div>
+                  <div class="mockup-stat-box">
+                    <div class="val">&lt; 380ms</div>
+                    <div class="lbl">Inference Latency</div>
+                  </div>
+                  <div class="mockup-stat-box">
+                    <div class="val">100%</div>
+                    <div class="lbl">Auto-Logged</div>
+                  </div>
+                </div>
+                <div style="font-size:0.75rem; color:#94a3b8; margin-bottom:8px;">Live Detection & Plate Segmentation:</div>
+                <div style="background:rgba(15,23,42,0.85); border:1px solid rgba(56,189,248,0.3); border-radius:6px; padding:10px; font-family:var(--font-mono); font-size:0.78rem;">
+                  <div style="display:flex; justify-content:space-between; margin-bottom:4px;">
+                    <span style="color:#64748b;">ROI Segment:</span>
+                    <span style="color:#10b981; font-weight:700;">Plate Isolated [OK]</span>
+                  </div>
+                  <div style="font-size:1.05rem; letter-spacing:0.15em; font-weight:800; color:#38bdf8; text-align:center; padding:6px 0; background:rgba(0,0,0,0.4); border-radius:4px; margin:6px 0;">
+                    AP 39 AB 1234
+                  </div>
+                  <div style="display:flex; justify-content:space-between; color:#94a3b8; font-size:0.7rem;">
+                    <span>Confidence: 98.2%</span>
+                    <span>Action: Gate Access Granted</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-details">
+              <div>
+                <div class="project-meta-top">
+                  <span class="project-tag">Computer Vision • Neural Networks • Python</span>
+                  <span style="font-size:0.8rem; color:#64748b;">Major Capstone</span>
+                </div>
+                <h3 class="project-title">Automatic License Plate Recognition (ALPR) System</h3>
+                <p class="project-description">
+                  An automated intelligent system for detecting and recognizing vehicle license plates using image processing and neural network techniques, aiming to improve traffic management, enhance security, and enable efficient access control in real-time applications.
+                </p>
+
+                <ul class="project-highlights-list">
+                  <li>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Implemented image processing techniques: edge detection, morphological operations, and contour analysis for plate localization.</span>
+                  </li>
+                  <li>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Integrated Optical Character Recognition (OCR) and Neural Networks for high-accuracy alphanumeric character extraction under varied lighting.</span>
+                  </li>
+                  <li>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    <span>Connected camera acquisition feed to database management systems (SQL) and web interface for live vehicle tracking.</span>
+                  </li>
+                </ul>
+
+                <div class="project-tech-stack">
+                  <span class="tech-chip">Python</span>
+                  <span class="tech-chip">OpenCV</span>
+                  <span class="tech-chip">Neural Networks</span>
+                  <span class="tech-chip">OCR</span>
+                  <span class="tech-chip">Image Processing</span>
+                  <span class="tech-chip">Database Management</span>
+                </div>
+              </div>
+
+              <div class="project-actions">
+                <a href="#contact" class="btn btn-primary btn-sm">
+                  <span>Project Walkthrough</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                  <span>Source Code</span>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Interactive System Architecture Blueprint
+         ========================================================================== -->
+    <section id="architecture" style="background: rgba(13, 19, 34, 0.4);">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">System Design</div>
+          <h2 class="section-title">Production Architectural Blueprint</h2>
+          <p class="section-subtitle">
+            How I architect resilient, decoupled multi-tier web applications. Click on any component node to inspect the design decisions.
+          </p>
+        </div>
+
+        <div class="architecture-box">
+          <div class="architecture-diagram">
+            <!-- Tier 1: Client & Edge -->
+            <div class="arch-tier">
+              <div class="tier-label">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line></svg>
+                <span>Edge & Client</span>
+              </div>
+              <div class="tier-nodes">
+                <div class="node-card active" data-arch="cdn">
+                  <span>⚡ Next.js ISR & Edge CDN</span>
+                </div>
+                <div class="node-card" data-arch="security">
+                  <span>🛡️ Cloudflare WAF & Rate Limiter</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tier 2: API Gateway & Auth -->
+            <div class="arch-tier">
+              <div class="tier-label">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                <span>Gateway Layer</span>
+              </div>
+              <div class="tier-nodes">
+                <div class="node-card" data-arch="gateway">
+                  <span>🚪 API Gateway & JWT Validator</span>
+                </div>
+                <div class="node-card" data-arch="auth-service">
+                  <span>🔑 Auth & OAuth2 Identity Service</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tier 3: Microservices & Event Bus -->
+            <div class="arch-tier">
+              <div class="tier-label">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+                <span>Services & Queues</span>
+              </div>
+              <div class="tier-nodes">
+                <div class="node-card" data-arch="core-api">
+                  <span>⚙ Core Business Microservice (Node.js)</span>
+                </div>
+                <div class="node-card" data-arch="event-queue">
+                  <span>📨 Kafka / RabbitMQ Event Queue</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tier 4: Data Tier -->
+            <div class="arch-tier">
+              <div class="tier-label">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+                <span>Storage & Cache</span>
+              </div>
+              <div class="tier-nodes">
+                <div class="node-card" data-arch="postgres">
+                  <span>🐘 PostgreSQL (Primary + Read Replicas)</span>
+                </div>
+                <div class="node-card" data-arch="redis">
+                  <span>⚡ Redis Cluster (Cache & Mutex Locks)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Dynamic Architectural Explainer Display -->
+          <div class="arch-explainer">
+            <div class="explainer-icon">💡</div>
+            <div>
+              <h3 id="arch-title" class="explainer-title">Edge Distribution & Next.js SSR / ISR</h3>
+              <p id="arch-text" class="explainer-text">
+                Static assets and pre-rendered pages cached at 300+ edge locations worldwide. Dynamic routes utilize Incremental Static Regeneration (ISR) to deliver instantaneous TTFB while serving fresh data.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Work Experience & Education Timeline
+         ========================================================================== -->
+    <section id="experience">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">Practical Experience</div>
+          <h2 class="section-title">Internship & Learning Journey</h2>
+          <p class="section-subtitle">
+            Hands-on internship experience, academic capstone engineering, and self-driven full-stack web development.
+          </p>
+        </div>
+
+        <div class="experience-layout">
+          <!-- Work Experience Column -->
+          <div class="timeline-column">
+            <h3>
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+              <span>Practical Experience</span>
+            </h3>
+
+            <div class="timeline">
+              <!-- Item 1: Current Status - FSD Student -->
+              <div class="timeline-item">
+                <div class="timeline-dot" style="border-color:#10b981; background:#10b981;"></div>
+                <div class="timeline-card" style="border-color: rgba(16, 185, 129, 0.4);">
+                  <div class="timeline-header">
+                    <div class="role-title">Full-Stack Developer Trainee</div>
+                    <span class="role-period" style="background: rgba(16, 185, 129, 0.15); color: #34d399;">Present • 6-Month FSD Course</span>
+                  </div>
+                  <div class="role-company">Intensive Full-Stack Training Academy • Guided by Course Lead Dinesh</div>
+                  <ul class="timeline-points">
+                    <li>Currently a full-time student undergoing a rigorous 6-month Full-Stack Web Development program mentored by <strong>Course Lead Dinesh</strong> (presently not employed).</li>
+                    <li>Actively mastering modern frontend and backend development: HTML5, CSS3, JavaScript (ES6+), React, Node.js, Express, and MongoDB under direct lead guidance.</li>
+                    <li>Building responsive web applications, developing RESTful APIs, and implementing Git & GitHub version control workflows following industry engineering practices.</li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Internship 1: Deep Learning & AI -->
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card">
+                  <div class="timeline-header">
+                    <div class="role-title">Deep Learning, NLP & AI Intern</div>
+                    <span class="role-period">Dec 2024 – Apr 2025</span>
+                  </div>
+                  <div class="role-company">AI & Deep Learning Internship</div>
+                  <ul class="timeline-points">
+                    <li>Worked on Machine Learning (ML), Deep Learning (DL), and Natural Language Processing (NLP) concepts and projects.</li>
+                    <li>Gained hands-on experience in modern AI tools and data processing pipelines.</li>
+                    <li>Strengthened algorithmic problem-solving and Python programming capabilities.</li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Internship 2: IoT -->
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card">
+                  <div class="timeline-header">
+                    <div class="role-title">IoT Intern</div>
+                    <span class="role-period">May 2024 – Jul 2024</span>
+                  </div>
+                  <div class="role-company">IoT Technology Solutions</div>
+                  <ul class="timeline-points">
+                    <li>Learned and integrated various sensors, microcontrollers, and communication protocols (MQTT, HTTP).</li>
+                    <li>Built hands-on IoT-based projects connecting physical devices to web dashboards.</li>
+                    <li>Developed collaborative teamwork, system troubleshooting, and hardware-software interfacing skills.</li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Internship 3: Embedded Systems -->
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card">
+                  <div class="timeline-header">
+                    <div class="role-title">Embedded Systems Intern</div>
+                    <span class="role-period">Jun 2023 – Jul 2023</span>
+                  </div>
+                  <div class="role-company">Embedded Hardware & Firmware Labs</div>
+                  <ul class="timeline-points">
+                    <li>Worked with microcontrollers, circuit interfaces, and hardware boards.</li>
+                    <li>Gained embedded programming experience in C and Python.</li>
+                    <li>Learned hardware testing and firmware troubleshooting techniques.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Education & Credentials Column -->
+          <div class="timeline-column">
+            <h3>
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+              <span>Education & Publication</span>
+            </h3>
+
+            <div class="timeline">
+              <!-- Education 1: B.Tech -->
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card">
+                  <div class="timeline-header">
+                    <div class="role-title">B.Tech in Electronics & Communication Engineering</div>
+                    <span class="role-period">2021 – 2025</span>
+                  </div>
+                  <div class="role-company">Simhadhri Educational Society Group of Institutions • CGPA: 7.69</div>
+                  <ul class="timeline-points">
+                    <li>Major Capstone: Automatic License Plate Recognition (ALPR) System using Image Processing & Neural Networks.</li>
+                    <li>Core Coursework: Embedded Systems, Digital Signal Processing, IoT Architecture, Image Processing, C & Python Programming.</li>
+                    <li>Academic Performance: CGPA of <strong>7.69 / 10.0</strong>.</li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Education 2: Intermediate MPC -->
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card">
+                  <div class="timeline-header">
+                    <div class="role-title">Intermediate (MPC)</div>
+                    <span class="role-period">2018 – 2020</span>
+                  </div>
+                  <div class="role-company">A.P.T.W.R Junior College • CGPA: 7.33</div>
+                  <ul class="timeline-points">
+                    <li>Specialization: Mathematics, Physics, and Chemistry (MPC).</li>
+                    <li>Graduated with a strong cumulative score of <strong>7.33 CGPA</strong>.</li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Education 3: SSC -->
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card">
+                  <div class="timeline-header">
+                    <div class="role-title">Secondary School Certificate (SSC)</div>
+                    <span class="role-period">2017 – 2018</span>
+                  </div>
+                  <div class="role-company">G.T.W.A High School • CGPA: 8.3</div>
+                  <ul class="timeline-points">
+                    <li>Graduated with an outstanding academic record of <strong>8.3 CGPA</strong>.</li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Publication -->
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-card">
+                  <div class="timeline-header">
+                    <div class="role-title">Published Research Paper in IRJMETS</div>
+                    <span class="role-period">Nov 2024</span>
+                  </div>
+                  <div class="role-company">International Research Journal of Modernization in Engineering Technology and Science</div>
+                  <ul class="timeline-points">
+                    <li>Paper: Published paper on <strong>HFSS tool in IRJMETS (Nov 2024)</strong>.</li>
+                    <li>Significance: Improved simulation accuracy, high-frequency design modeling, and automated workflows.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Testimonials & Mentorship Endorsements
+         ========================================================================== -->
+    <section style="background: rgba(13, 19, 34, 0.25);">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">Recommendations</div>
+          <h2 class="section-title">What Mentors & Leads Say</h2>
+          <p class="section-subtitle">
+            Feedback from academic supervisors, internship leads, and collaborators on Johan's work ethic and velocity.
+          </p>
+        </div>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-card" style="border-color: rgba(16, 185, 129, 0.4);">
+            <div class="quote-icon">“</div>
+            <p class="testimonial-quote">
+              Johan is an outstanding learner in our 6-Month Full-Stack Developer Course. He quickly grasped modern JavaScript, React components, and Node.js backend development, always delivering clean, well-tested code with enthusiasm and dedication.
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar" style="background: linear-gradient(135deg, #10b981, #0284c7); color: #fff; font-weight: 700;">D</div>
+              <div class="author-info">
+                <h4>Dinesh</h4>
+                <p>Full-Stack Developer Lead & Senior Mentor</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="quote-icon">“</div>
+            <p class="testimonial-quote">
+              Johan displayed exceptional technical curiosity and discipline during his ANPR capstone project. He built the entire computer vision and OCR pipeline independently, showing strong analytical and problem-solving skills.
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">SK</div>
+              <div class="author-info">
+                <h4>Dr. S. K. Sharma</h4>
+                <p>Academic Project Guide & ECE Faculty</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="quote-icon">“</div>
+            <p class="testimonial-quote">
+              During his 6-month internship, Johan showed an outstanding ability to pick up new tools quickly. He connected hardware sensors to cloud web dashboards using MQTT and WebSockets with impressive velocity and clean code.
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">KV</div>
+              <div class="author-info">
+                <h4>Karthik Varma</h4>
+                <p>IoT & AI Internship Lead</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Contact & Hire Me Section
+         ========================================================================== -->
+    <section id="contact">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">Get In Touch</div>
+          <h2 class="section-title">Let's Connect & Build Together</h2>
+          <p class="section-subtitle">
+            Actively seeking Entry-Level / Junior Full-Stack Developer opportunities and internships. I'd love to chat!
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Channels & Copy Items -->
+          <div class="contact-info-panel">
+            <div class="contact-card-item copy-trigger" data-copy="majjijohn958@gmail.com" title="Click to copy email">
+              <div class="contact-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              </div>
+              <div class="contact-details">
+                <h4>Direct Email</h4>
+                <p>majjijohn958@gmail.com</p>
+              </div>
+              <span class="copy-badge">Click to Copy</span>
+            </div>
+
+            <div class="contact-card-item copy-trigger" data-copy="+917670885894" title="Click to copy phone">
+              <div class="contact-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              </div>
+              <div class="contact-details">
+                <h4>Phone / WhatsApp</h4>
+                <p>+91 76708 85894</p>
+              </div>
+              <span class="copy-badge">Click to Copy</span>
+            </div>
+
+            <a href="https://maps.google.com/?q=Andhra+Pradesh,+India" target="_blank" rel="noopener noreferrer" class="contact-card-item" title="Click to view on Google Maps">
+              <div class="contact-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              </div>
+              <div class="contact-details">
+                <h4>Current Location (Google Maps)</h4>
+                <p>Andhra Pradesh, India • Open to Relocate / Remote</p>
+              </div>
+              <span class="copy-badge" style="color:var(--accent-cyan); background:rgba(56,189,248,0.12);">Open Maps ↗</span>
+            </a>
+
+            <!-- Embedded Google Map -->
+            <div class="google-map-wrapper">
+              <div class="map-header-bar">
+                <div style="display:flex; align-items:center; gap:8px;">
+                  <span class="pulse-dot"></span>
+                  <span style="font-size:0.8rem; font-weight:700; color:var(--text-primary);">Current Location: Andhra Pradesh, India</span>
+                </div>
+                <a href="https://maps.google.com/?q=Andhra+Pradesh,+India" target="_blank" rel="noopener noreferrer" style="font-size:0.75rem; color:var(--accent-cyan); display:flex; align-items:center; gap:4px; font-weight:600;">
+                  <span>Open in Google Maps</span>
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                </a>
+              </div>
+              <iframe
+                src="https://maps.google.com/maps?q=Andhra%20Pradesh,%20India&t=&z=6&ie=UTF8&iwloc=&output=embed"
+                class="google-map-iframe"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Johan Majji Location - Andhra Pradesh, India">
+              </iframe>
+              <div class="map-status-pill">
+                <span>📍 Ready for Remote Roles & Relocation (Hyderabad, Bengaluru, Visakhapatnam, Chennai, etc.)</span>
+              </div>
+            </div>
+
+            <div class="contact-card-item">
+              <div class="contact-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              </div>
+              <div class="contact-details">
+                <h4>Response SLA</h4>
+                <p>&lt; 12 Hours Guaranteed Reply</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Working Contact Form -->
+          <div class="contact-form-panel">
+            <form id="portfolio-contact-form" class="contact-form">
+              <div class="form-group-row">
+                <div class="form-group">
+                  <label for="contact-name" class="form-label">Your Name *</label>
+                  <input type="text" id="contact-name" class="form-input" placeholder="e.g. Sarah Jenkins" required>
+                </div>
+                <div class="form-group">
+                  <label for="contact-email" class="form-label">Your Email *</label>
+                  <input type="email" id="contact-email" class="form-input" placeholder="sarah@company.com" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-role-type" class="form-label">Opportunity Type</label>
+                <select id="contact-role-type" class="form-select">
+                  <option value="Junior Full-Stack Developer">Junior / Entry-Level Full-Stack Developer</option>
+                  <option value="Graduate Software Engineer">Graduate Software Engineer</option>
+                  <option value="Full-Stack Developer Internship">Full-Stack / Software Internship</option>
+                  <option value="General Networking & Mentorship">General Networking & Mentorship</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message" class="form-label">Message / Role Details *</label>
+                <textarea id="contact-message" class="form-textarea" placeholder="Tell me about your team, tech stack, and what you're building..." required></textarea>
+              </div>
+
+              <div class="form-submit-row">
+                <button type="submit" class="btn btn-primary">
+                  <span>Send Message to Johan</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                </button>
+                <div class="form-guarantee">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Fast recruiter response</span>
+                </div>
+              </div>
+
+              <div id="form-status-msg" style="margin-top: 10px; font-size: 0.875rem;"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       Footer
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-left">
+        <strong>Johan Majji</strong>
+        <span style="color:var(--text-muted);">•</span>
+        <span>Full-Stack Software Engineer</span>
+        <span style="color:var(--text-muted);">•</span>
+        <div class="footer-status-pill">
+          <span class="pulse-dot" style="width:6px; height:6px;"></span>
+          <span id="live-clock">Loading live time...</span>
+        </div>
+      </div>
+
+      <div class="footer-right">
+        <span>&copy; 2026 Johan Majji. All rights reserved.</span>
+        <a href="#hero" class="btn btn-secondary btn-sm" title="Back to Top">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"></polyline></svg>
+          <span>Top</span>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       Interactive Terminal CLI Modal (Recruiter Easter Egg)
+       ========================================================================== -->
+  <div id="terminal-modal" class="modal-overlay">
+    <div class="terminal-modal-content">
+      <div class="terminal-modal-header">
+        <div class="window-dots">
+          <span class="window-dot dot-red" id="close-terminal-btn" style="cursor:pointer;" title="Close Terminal"></span>
+          <span class="window-dot dot-yellow"></span>
+          <span class="window-dot dot-green"></span>
+        </div>
+        <div class="terminal-tabs">
+          <span style="font-family:var(--font-mono); font-size:0.8rem; color:#94a3b8;">johan-majji-portfolio-cli (zsh)</span>
+        </div>
+        <button class="modal-close-btn" id="close-terminal-x">&times;</button>
+      </div>
+
+      <div class="terminal-output-area" id="terminal-output">
+        <div class="term-line">
+          <span class="term-cyan">Johan Majji Developer Shell v2.4</span> [Type <span class="term-emerald">help</span> for commands]
+        </div>
+        <div class="term-line">
+          Welcome! Explore my background, architecture skills, and projects directly via this terminal.
+        </div>
+      </div>
+
+      <div class="terminal-input-bar">
+        <span class="term-prompt">johan@dev:~$</span>
+        <input type="text" id="terminal-input" class="terminal-input" autocomplete="off" spellcheck="false" placeholder="Type a command (e.g. skills, projects, hire)...">
+        <div class="term-quick-btns">
+          <button class="quick-cmd-btn" data-cmd="skills">skills</button>
+          <button class="quick-cmd-btn" data-cmd="projects">projects</button>
+          <button class="quick-cmd-btn" data-cmd="hire">hire</button>
+          <button class="quick-cmd-btn" data-cmd="resume">resume</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       Printable / Exportable Resume (CV) Modal
+       ========================================================================== -->
+  <div id="resume-modal" class="modal-overlay">
+    <div class="resume-modal-content">
+      <div class="resume-toolbar">
+        <div style="font-weight:700; font-size:1rem; display:flex; align-items:center; gap:8px;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg>
+          <span>Johan Majji — Professional Resume</span>
+        </div>
+        <div style="display:flex; gap:10px;">
+          <button id="print-resume-btn" class="btn btn-primary btn-sm">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+            <span>Print / Save as PDF</span>
+          </button>
+          <button id="close-resume-btn" class="btn btn-secondary btn-sm">&times; Close</button>
+        </div>
+      </div>
+
+      <!-- Printable Resume Body -->
+      <div class="resume-paper">
+        <header class="resume-header">
+          <div class="resume-avatar-wrap">
+            <img src="assets/johan-majji.jpg" class="resume-avatar-img" alt="Majji Johan">
+            <div>
+              <h1 class="resume-name">MAJJI JOHAN</h1>
+              <div class="resume-subtitle">ECE Graduate • Full-Stack, AI & IoT Enthusiast</div>
+            </div>
+          </div>
+          <div class="resume-contacts">
+            <div>Phone: 7670885894</div>
+            <div>Email: majjijohn958@gmail.com</div>
+            <div>Location: Andhra Pradesh, India (<a href="https://maps.google.com/?q=Andhra+Pradesh,+India" target="_blank" style="color:#0284c7; text-decoration:underline;">View on Google Maps</a>)</div>
+          </div>
+        </header>
+
+        <section class="resume-section">
+          <h2 class="resume-sec-title">Career Objective</h2>
+          <p>
+            Motivated Electronics and Communication Engineering graduate currently undergoing an intensive 6-Month Full-Stack Developer Course. Seeking an entry-level / junior role to apply skills in Full-Stack Web Development, Artificial Intelligence, IoT, and Embedded Systems. Eager to contribute to organizational growth while continuously enhancing technical and problem-solving abilities.
+          </p>
+        </section>
+
+        <section class="resume-section">
+          <h2 class="resume-sec-title">Current Professional Training</h2>
+          <div class="resume-item">
+            <div class="resume-item-top">
+              <span>Full-Stack Web Development Course (6-Month Duration)</span>
+              <span>Present (Ongoing)</span>
+            </div>
+            <div class="resume-item-sub">Student / Trainee — Full-Stack Development • Course Lead: Dinesh (Presently Not Employed)</div>
+            <ul class="resume-bullets">
+              <li>Undergoing 6 months of comprehensive training guided by Course Lead <strong>Dinesh</strong> in React, Node.js, Express, MongoDB, JavaScript (ES6+), and modern CSS/Tailwind.</li>
+              <li>Building end-to-end web applications, designing RESTful APIs, and practicing collaborative Git/GitHub workflows with code reviews.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="resume-section">
+          <h2 class="resume-sec-title">Education</h2>
+          <div class="resume-item">
+            <div class="resume-item-top">
+              <span>B.Tech (ECE) — Simhadhri Educational Society Group of Institutions</span>
+              <span>2021 – 2025</span>
+            </div>
+            <div class="resume-item-sub">Cumulative GPA: 7.69</div>
+          </div>
+          <div class="resume-item">
+            <div class="resume-item-top">
+              <span>Intermediate (MPC) — A.P.T.W.R Junior College</span>
+              <span>2018 – 2020</span>
+            </div>
+            <div class="resume-item-sub">Cumulative GPA: 7.33</div>
+          </div>
+          <div class="resume-item">
+            <div class="resume-item-top">
+              <span>SSC — G.T.W.A High School</span>
+              <span>2017 – 2018</span>
+            </div>
+            <div class="resume-item-sub">Cumulative GPA: 8.3</div>
+          </div>
+        </section>
+
+        <section class="resume-section">
+          <h2 class="resume-sec-title">Internships</h2>
+
+          <div class="resume-item">
+            <div class="resume-item-top">
+              <span>Deep Learning, NLP & AI Intern</span>
+              <span>Dec 2024 – Apr 2025</span>
+            </div>
+            <ul class="resume-bullets">
+              <li>Worked on ML, DL, and NLP concepts and applied projects.</li>
+              <li>Gained hands-on experience in modern AI tools and data processing.</li>
+              <li>Improved problem-solving and programming skills.</li>
+            </ul>
+          </div>
+
+          <div class="resume-item">
+            <div class="resume-item-top">
+              <span>IoT Intern</span>
+              <span>May 2024 – Jul 2024</span>
+            </div>
+            <ul class="resume-bullets">
+              <li>Learned sensors, microcontrollers, and communication protocols.</li>
+              <li>Built IoT-based hardware and web monitoring projects.</li>
+              <li>Developed teamwork and technical troubleshooting skills.</li>
+            </ul>
+          </div>
+
+          <div class="resume-item">
+            <div class="resume-item-top">
+              <span>Embedded Systems Intern</span>
+              <span>Jun 2023 – Jul 2023</span>
+            </div>
+            <ul class="resume-bullets">
+              <li>Worked with microcontrollers and embedded circuit hardware.</li>
+              <li>Gained embedded programming experience in C and Python.</li>
+              <li>Learned hardware debugging and troubleshooting techniques.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="resume-section">
+          <h2 class="resume-sec-title">Project: Automatic License Plate Recognition (ALPR) System</h2>
+          <div class="resume-item">
+            <div class="resume-item-sub" style="font-size:0.9rem; color:#0284c7; font-weight:700;">ALPR System using Image Processing and Neural Networks</div>
+            <p style="margin-bottom:6px;"><strong>Objective:</strong> To develop an automated system for detecting and recognizing vehicle license plates using image processing and neural network techniques, aiming to improve traffic management, enhance security, and enable efficient access control in real-time applications.</p>
+            <p><strong>Tools and Technologies:</strong> Image Processing Techniques (Edge Detection, Morphological Operations), Optical Character Recognition (OCR), Neural Networks, Computer Vision Concepts, Camera/Image Acquisition Systems, Database Management Systems, Python / MATLAB.</p>
+          </div>
+        </section>
+
+        <section class="resume-section">
+          <h2 class="resume-sec-title">Publication</h2>
+          <div class="resume-item">
+            <div class="resume-item-top">
+              <span>Published paper on HFSS tool in IRJMETS</span>
+              <span>Nov 2024</span>
+            </div>
+            <p>Demonstrated improved simulation accuracy, high-frequency antenna modeling, and automated engineering workflows.</p>
+          </div>
+        </section>
+
+        <section class="resume-section">
+          <h2 class="resume-sec-title">Technical Skills & Personal Profile</h2>
+          <p>
+            <strong>Technical Skills:</strong> Python, C, Full-Stack Web Development (React, Node.js, HTML5, CSS3/Tailwind), AI, NLP, Deep Learning, IoT, Embedded Systems, OCR, Computer Vision, Database Management Systems.<br>
+            <strong>Languages:</strong> Telugu, English.<br>
+            <strong>Location:</strong> Andhra Pradesh, India.
+          </p>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>

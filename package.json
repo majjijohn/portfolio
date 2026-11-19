@@ -1,0 +1,20 @@
+{
+  "name": "johan-majji-portfolio",
+  "version": "1.0.0",
+  "description": "Professional Full-Stack Developer Portfolio for Johan Majji",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "portfolio",
+    "full-stack-developer",
+    "johan-majji",
+    "react",
+    "node",
+    "web-development"
+  ],
+  "author": "Johan Majji",
+  "license": "MIT"
+}
