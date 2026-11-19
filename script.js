@@ -338,6 +338,7 @@ Actively seeking entry-level / junior full-stack developer opportunities upon co
     'projects': () => `
 <span class="term-cyan">Featured Engineering Projects:</span>
   1. <span class="term-gold">Automatic License Plate Recognition (ALPR) System</span>
+     Guidance: Academic Guide Mrs. P. Vijaya (ECE Faculty)
      Stack: Image Processing (Edge Detection, Morphology), Neural Networks, OCR, Python, SQL
      Objective: Automated detection and recognition of vehicle plates for traffic management and access control.
   2. <span class="term-gold">CloudScale APM</span> - Real-time distributed telemetry engine
@@ -359,9 +360,9 @@ Actively seeking entry-level / junior full-stack developer opportunities upon co
   • <span class="term-emerald">Full-Stack Developer Trainee</span> (Present • 6-Month FSD Course)
     - Full-time student undergoing intensive training mentored by Course Lead Dinesh in React, Node.js, Express, MongoDB, and Tailwind CSS.
   • <span class="term-emerald">Deep Learning, NLP & AI Intern</span> (Dec 2024 – Apr 2025)
-    - Worked on ML, DL, and NLP concepts, tools, and hands-on AI projects.
+    - Guided by Lead Mr. V. S. Pavan Kumar; applied ML, DL, and NLP concepts to practical data pipelines.
   • <span class="term-emerald">IoT Intern</span> (May 2024 – Jul 2024)
-    - Built IoT projects interfacing sensors, microcontrollers, and communication protocols.
+    - Guided by Lead Mr. V. S. Pavan Kumar; built sensor-to-cloud IoT projects with MQTT & microcontrollers.
   • <span class="term-emerald">Embedded Systems Intern</span> (Jun 2023 – Jul 2023)
     - Gained hardware and embedded C/Python programming experience with microcontrollers.
 `,
