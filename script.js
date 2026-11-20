@@ -372,7 +372,7 @@ Actively seeking entry-level / junior full-stack developer opportunities upon co
   • Phone:    <span class="term-emerald">7670885894</span>
   • Location: <a href="https://maps.google.com/?q=Andhra+Pradesh,+India" target="_blank" class="term-emerald">Andhra Pradesh, India (View Google Maps ↗)</a>
   • LinkedIn: <span class="term-dim">linkedin.com/in/johan-majji</span>
-  • GitHub:   <span class="term-dim">github.com/johan-majji</span>
+  • GitHub:   <a href="https://github.com/majjijohn" target="_blank" class="term-emerald">github.com/majjijohn</a>
   • Status:   <span class="term-emerald">Student @ 6-Month FSD Course (Lead: Dinesh) • Open to Junior Full-Stack Roles</span>
 `,
     'hire': () => `
