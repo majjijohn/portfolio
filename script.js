@@ -323,7 +323,7 @@ function initTerminalCLI() {
 --------------------------------------------------
 B.Tech ECE graduate (Simhadhri Group of Institutions, 2021–2025, CGPA 7.69) from Andhra Pradesh, India.
 Currently NOT employed — presently a dedicated student pursuing an intensive 6-Month Full-Stack
-Developer (FSD) Course under Course Lead Dinesh. Completed 3 specialized internships (Deep Learning & NLP,
+Developer (FSD) Course under Course Lead Mr. Dinesh. Completed 3 specialized internships (Deep Learning & NLP,
 IoT, Embedded Systems), published a research paper in IRJMETS (Nov 2024), and built an ALPR vision system.
 Actively seeking entry-level / junior full-stack developer opportunities upon course completion.
 `,
@@ -358,7 +358,7 @@ Actively seeking entry-level / junior full-stack developer opportunities upon co
     'experience': () => `
 <span class="term-cyan">Timeline & Technical Experience:</span>
   • <span class="term-emerald">Full-Stack Developer Trainee</span> (Present • 6-Month FSD Course)
-    - Full-time student undergoing intensive training mentored by Course Lead Dinesh in React, Node.js, Express, MongoDB, and Tailwind CSS.
+    - Full-time student undergoing intensive training mentored by Course Lead Mr. Dinesh in React, Node.js, Express, MongoDB, and Tailwind CSS.
   • <span class="term-emerald">Deep Learning, NLP & AI Intern</span> (Dec 2024 – Apr 2025)
     - Guided by Lead Mr. V. S. Pavan Kumar; applied ML, DL, and NLP concepts to practical data pipelines.
   • <span class="term-emerald">IoT Intern</span> (May 2024 – Jul 2024)
@@ -373,12 +373,12 @@ Actively seeking entry-level / junior full-stack developer opportunities upon co
   • Location: <a href="https://maps.google.com/?q=Andhra+Pradesh,+India" target="_blank" class="term-emerald">Andhra Pradesh, India (View Google Maps ↗)</a>
   • LinkedIn: <span class="term-dim">linkedin.com/in/johan-majji</span>
   • GitHub:   <a href="https://github.com/majjijohn" target="_blank" class="term-emerald">github.com/majjijohn</a>
-  • Status:   <span class="term-emerald">Student @ 6-Month FSD Course (Lead: Dinesh) • Open to Junior Full-Stack Roles</span>
+  • Status:   <span class="term-emerald">Student @ 6-Month FSD Course (Lead: Mr. Dinesh) • Open to Junior Full-Stack Roles</span>
 `,
     'hire': () => `
 <span class="term-gold">★ Why Hire Majji Johan? ★</span>
   1. <strong>Strong Engineering Foundation:</strong> B.Tech in ECE from Simhadhri Group of Institutions with 7.69 CGPA.
-  2. <strong>FSD Course Mentored by Lead Dinesh:</strong> Intensive daily hands-on practice building modern React/Node.js web apps.
+  2. <strong>FSD Course Mentored by Lead Mr. Dinesh:</strong> Intensive daily hands-on practice building modern React/Node.js web apps.
   3. <strong>3 Practical Internships:</strong> Hands-on experience across Deep Learning & NLP, IoT, and Embedded Systems.
   4. <strong>Research & Capstone Proven:</strong> Published paper in IRJMETS and built an ALPR neural network vision system.
   5. <strong>Rapid Learner & Dedicated:</strong> Highly motivated to apply full-stack web skills and continuously grow with the team!

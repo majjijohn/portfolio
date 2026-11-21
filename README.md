@@ -36,7 +36,7 @@ A modern, high-performance personal portfolio website built for **Johan Majji**,
 
 7. **Working Contact Form, Google Maps & Quick Copy**:
    - **Google Maps Location**: Interactive embedded Google Map centered on Andhra Pradesh, India with open-in-maps link.
-   - **Current Status & Lead Mentorship**: Clearly highlights status as a student in an intensive 6-Month Full-Stack Developer Course mentored by Course Lead Dinesh (presently not employed).
+   - **Current Status & Lead Mentorship**: Clearly highlights status as a student in an intensive 6-Month Full-Stack Developer Course mentored by Course Lead Mr. Dinesh (presently not employed).
    - **Quick Copy**: Click-to-copy email and phone number with instant feedback toast badges.
 
 ---
