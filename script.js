@@ -288,16 +288,17 @@ function initTerminalCLI() {
   const COMMANDS = {
     'help': () => `
 <span class="term-cyan">Available commands:</span>
-  <span class="term-emerald">about</span>        - Executive summary of Johan Majji
-  <span class="term-emerald">education</span>    - Degree, colleges, and CGPA
-  <span class="term-emerald">experience</span>   - 3 Technical Internships
-  <span class="term-emerald">publication</span>  - Published paper in IRJMETS
-  <span class="term-emerald">projects</span>     - ALPR system & web apps
-  <span class="term-emerald">skills</span>       - Technical stack & proficiencies
-  <span class="term-emerald">contact</span>      - Direct contact channels
-  <span class="term-emerald">hire</span>         - Why you should hire Johan!
-  <span class="term-emerald">resume</span>       - Open printable resume modal
-  <span class="term-emerald">clear</span>        - Clear terminal screen
+  <span class="term-emerald">about</span>          - Executive summary of Johan Majji
+  <span class="term-emerald">education</span>      - Degree, colleges, and CGPA
+  <span class="term-emerald">experience</span>     - 3 Technical Internships
+  <span class="term-emerald">certifications</span> - Professional certifications (Infosys Django)
+  <span class="term-emerald">publication</span>    - Published paper in IRJMETS
+  <span class="term-emerald">projects</span>       - ALPR system & web apps
+  <span class="term-emerald">skills</span>         - Technical stack & proficiencies
+  <span class="term-emerald">contact</span>        - Direct contact channels
+  <span class="term-emerald">hire</span>           - Why you should hire Johan!
+  <span class="term-emerald">resume</span>         - Open printable resume modal
+  <span class="term-emerald">clear</span>          - Clear terminal screen
 `,
     'education': () => `
 <span class="term-cyan">Education Background:</span>
@@ -318,19 +319,30 @@ function initTerminalCLI() {
     - Journal: International Research Journal of Modernization in Engineering Technology and Science
     - Contribution: Improved simulation accuracy and automated engineering workflows
 `,
+    'certifications': () => `
+<span class="term-cyan">Professional Certifications:</span>
+  • <span class="term-gold">Mastering Django Web Development</span> — <span class="term-emerald">Infosys Springboard</span>
+    - Organization: Infosys Limited (Infosys Springboard)
+    - Completed: Nov 16, 2026 | Issued: Nov 17, 2026
+    - Core Competencies: Python, Django MVT, ORM, RESTful APIs, Secure Auth, Database Integration
+    - Official Verification: <a href="https://verify.onwingspan.com" target="_blank" class="term-emerald">verify.onwingspan.com ↗</a>
+    - Certificate Document: <a href="assets/infosys-django-certificate.pdf" target="_blank" class="term-emerald">assets/infosys-django-certificate.pdf ↗</a>
+`,
+    'cert': () => commands['certifications'](),
+    'certificate': () => commands['certifications'](),
     'about': () => `
 <span class="term-cyan">Majji Johan | ECE Graduate & Full-Stack Developer Student</span>
 --------------------------------------------------
 B.Tech ECE graduate (Simhadhri Group of Institutions, 2021–2025, CGPA 7.69) from Andhra Pradesh, India.
-Currently NOT employed — presently a dedicated student pursuing an intensive 6-Month Full-Stack
-Developer (FSD) Course under Course Lead Mr. Dinesh. Completed 3 specialized internships (Deep Learning & NLP,
-IoT, Embedded Systems), published a research paper in IRJMETS (Nov 2024), and built an ALPR vision system.
-Actively seeking entry-level / junior full-stack developer opportunities upon course completion.
+Currently NOT employed — dedicated student pursuing an intensive 6-Month Full-Stack Developer Course
+under Course Lead Mr. Dinesh. Certified in Mastering Django Web Development by Infosys Springboard (Nov 2026).
+Completed 3 specialized internships (Deep Learning & NLP, IoT, Embedded Systems), published research in
+IRJMETS (Nov 2024), and built an ALPR neural network vision system. Actively seeking junior developer roles.
 `,
     'skills': () => `
 <span class="term-cyan">Technical Arsenal:</span>
-  • <span class="term-emerald">Languages:</span> Python, C, JavaScript (ES6+), HTML5, CSS3/Tailwind
-  • <span class="term-emerald">Web & Backend:</span> React, Node.js, Express, RESTful APIs, WebSockets, MQTT
+  • <span class="term-emerald">Languages:</span> Python, Django, C, JavaScript (ES6+), HTML5, CSS3/Tailwind
+  • <span class="term-emerald">Web & Backend:</span> React, Node.js, Express, Django (Infosys Certified), RESTful APIs, WebSockets, MQTT
   • <span class="term-emerald">AI & Vision:</span> Deep Learning, NLP, OpenCV (ALPR), Neural Networks, OCR
   • <span class="term-emerald">Hardware & IoT:</span> Sensors, Microcontrollers, Embedded Systems
   • <span class="term-emerald">Databases & Tools:</span> Database Management Systems (SQL), Git, GitHub, Postman
@@ -379,9 +391,10 @@ Actively seeking entry-level / junior full-stack developer opportunities upon co
 <span class="term-gold">★ Why Hire Majji Johan? ★</span>
   1. <strong>Strong Engineering Foundation:</strong> B.Tech in ECE from Simhadhri Group of Institutions with 7.69 CGPA.
   2. <strong>FSD Course Mentored by Lead Mr. Dinesh:</strong> Intensive daily hands-on practice building modern React/Node.js web apps.
-  3. <strong>3 Practical Internships:</strong> Hands-on experience across Deep Learning & NLP, IoT, and Embedded Systems.
-  4. <strong>Research & Capstone Proven:</strong> Published paper in IRJMETS and built an ALPR neural network vision system.
-  5. <strong>Rapid Learner & Dedicated:</strong> Highly motivated to apply full-stack web skills and continuously grow with the team!
+  3. <strong>Infosys Certified in Django:</strong> Verified certificate in Mastering Django Web Development from Infosys Springboard.
+  4. <strong>3 Practical Internships:</strong> Hands-on experience across Deep Learning & NLP, IoT, and Embedded Systems.
+  5. <strong>Research & Capstone Proven:</strong> Published paper in IRJMETS and built an ALPR neural network vision system.
+  6. <strong>Rapid Learner & Dedicated:</strong> Highly motivated to apply full-stack web skills and continuously grow with the team!
 `,
     'resume': () => {
       openResumeModal();

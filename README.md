@@ -12,7 +12,7 @@ A modern, high-performance personal portfolio website built for **Johan Majji**,
    - Light / Dark theme switcher with `localStorage` memory.
 
 2. **Executive Recruiter Impact**:
-   - **Quantified Stats Bar**: B.Tech ECE (Simhadhri Group of Institutions, CGPA 7.69), 3 Internships (Deep Learning/NLP, IoT, Embedded Systems), 1 Research Publication (IRJMETS).
+   - **Quantified Stats Bar**: B.Tech ECE (Simhadhri Group of Institutions, CGPA 7.69), 3 Internships (Deep Learning/NLP, IoT, Embedded Systems), 1 Research Publication (IRJMETS), 1 Verified Certificate (Infosys Springboard - Mastering Django).
    - **Live "Available for Hire" Badge**: Shows active job-seeking status immediately.
    - **Infinite Tech Ticker**: Modern marquee scrolling key technologies.
 
